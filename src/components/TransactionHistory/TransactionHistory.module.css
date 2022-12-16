@@ -1,0 +1,27 @@
+.transactionHistory {
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #ecf1f4;
+    border: 1px solid #ddeced;
+}
+
+.transactionHeadTr {
+    color: #e8fafc;
+    background-color: #00bcd5;
+}
+
+.transactionTh, .transactionTd {
+    padding: 16px 96px;
+}
+
+.transactionTd {
+    border-bottom: 1px solid #ddeced;
+}
+
+.transactionTr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.transactionTr:hover {
+    background-color: #d4d9dc;
+}
