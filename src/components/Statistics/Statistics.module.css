@@ -7,7 +7,7 @@
     max-height: 176px;
 
     background-color: #fff;
-    border: 1px thick double #b4c0d4;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 
     text-align: center;
 }
