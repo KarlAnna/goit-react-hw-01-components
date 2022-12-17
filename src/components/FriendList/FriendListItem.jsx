@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { FaCircle } from 'react-icons/fa';
 import css from './FriendList.module.css'
 
@@ -11,4 +12,10 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
             </li>
         </>
     )
+}
+
+FriendListItem.propTypes = {
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    isOnline: PropTypes.bool
 }

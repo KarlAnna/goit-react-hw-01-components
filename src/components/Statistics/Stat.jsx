@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import css from './Statistics.module.css'
 
 export const Stat = ({ label, percentage }) => {
@@ -17,4 +18,9 @@ function getRandomDarkHexColor() {
         color += Math.floor(Math.random() * 10)
     }
     return color
+}
+
+Stat.propTypes = {
+    label: PropTypes.string,
+    percentage: PropTypes.number
 }
