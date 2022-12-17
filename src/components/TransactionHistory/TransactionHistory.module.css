@@ -16,6 +16,7 @@
 
 .transactionTd {
     border-bottom: 1px solid #ddeced;
+    text-align: center;
 }
 
 .transactionTr:nth-child(odd) {
